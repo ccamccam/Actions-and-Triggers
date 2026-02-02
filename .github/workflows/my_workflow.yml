@@ -3,11 +3,11 @@ name: Simple Workflow
 on:
   push:
     branches:
-      -main
+      - main
 
 jobs:
   print-message:
     runs-on: ubuntu-latest
     steps:
-      -name: Print a message
-       run: echo "Greetings holders of eyes!"
+      - name: Print a message
+        run: echo "Greetings holders of eyes!"
